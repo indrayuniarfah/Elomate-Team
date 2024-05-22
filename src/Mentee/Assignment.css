@@ -1,0 +1,166 @@
+.assignment1 .title {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.assignment1 .selecttile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.assignment1 .selecttile .phase {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.assignment1 .selecttile .phaseselect {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 400px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.assignment1 .selecttile .topic {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.assignment1 .selecttile .topicselect {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 400px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.assignment1 .course {
+    background-color: white;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.assignment1 .description{
+    display: flex;
+    flex-direction: row;
+}
+
+.assignment1 .courseimg {
+    width: 5%;
+}
+
+.assignment1 .course-text{
+    margin-left: 1%;
+}
+
+.assignment1 .course-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.assignment1 .course-no-batch {
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.assignment1 .course-button {
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.assignment2 .title2 {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.assignment2 .backbutton {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 3%;
+    cursor: pointer;
+}
+
+.assignment2 .assign-selected {
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.assignment2 .assign-selected .selected-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.assignment2 .assign-selected .selected-no{
+    font-size: 16px;
+}
+
+.assignment2 .assign-details-container {
+    margin-top: 1%;
+}
+
+.assignment2 .assign-details {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    width: 29%;
+    margin: 1%;
+}
+
+.assignment2 .assign-details .assign-desc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.assignment2 .assign-details  .assign-description {
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.assignment2 .assign-details .assign-title{
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15%;
+}
+
+.assignment2 .assign-details .assign-no {
+    font-size: 13px;
+}
+
+.assignment2 .assign-details .assign-duedet {
+    margin-top: 5%;
+    font-size: 13px;
+}
+
+.assignment2 .assign-details .assign-due {
+    font-size: 13px;
+}
+
+.assignment2 .assign-details .assign-statusdet{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.assignment2 .assign-details .assign-status{
+    font-size: 14px;
+}

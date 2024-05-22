@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.login-container .left-section {
+  flex: 1;
+  padding-right: 1%;
+}
+
+.login-container .left-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-container .right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  height: 100vh;
+}
+
+.login-container .logo{
+  padding-bottom: 25%;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.login-container .logo .ut {
+  justify-content: flex-start;
+  margin-right: 280px;
+}
+
+.login-container .logo .elomate{
+  justify-content: flex-end;
+}
+
+.login-container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  max-width: 40%;
+  border: none;
+}
+
+.login-container .card form {
+  margin-bottom: 10%;
+}
+
+.login-container .card input {
+  margin-bottom: 3%;
+  padding: 3%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+}
+
+.login-container .card button {
+  margin-top: 40%;
+  padding: 5%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 5%;
+}
